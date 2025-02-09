@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalptaru - Photoshop Hub</title>
+    <link rel="stylesheet" href="front.css">
+
+    <style>
+        *{
+            color: white;
+            font-size: large;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-image: url(https://wallpapercrafter.com/desktop1/537668-forest-plant-leaves-fern-fauna-green-nature.jpg);
+        }
+        header, footer {
+            background: rgb(0, 0, 0,0.5);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: green;
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 30px;
+        }
+        article, aside {
+            background: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+        table, th, td {
+            border: 1px solid white;
+            border-collapse: collapse;
+            padding: 8px;
+            margin: 10px auto;
+            
+        }
+        video, audio, iframe {
+            width: 100%;
+            margin-top: 10px;
+        }
+        details {
+            background: #eee;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        article{
+            background-color: rgb(0, 0, 0,0.5);
+            border: 2px solid white;
+        }
+        input,summary,p,textarea{
+            background-color: rgb(0, 0, 0,0.5);
+        }
+        button{
+            background-color: green;
+        }
+       
+    </style>
+</head>
+<body>
+    
+        
+            <div class="nav_bar">
+                <img style="width: 80px;height: 40px;" src="download (1).png">
+                <a href="front.html"><i class="fa-solid fa-house"></i>Home</a>
+                <a href="image.html"><i class="fa-regular fa-image"></i>Gallary</a>
+                <a href="video.html"><i class="fa-solid fa-video"></i>Video</a>
+                <a href="Contact.html"><i class="fa-regular fa-address-book"></i>Contact</a>
+                <a href="about.html"><i class="fa-solid fa-info"></i>About us</a>
+                <a href="more.html"><i class="fa-solid fa-bars"></i>More</a>
+            </div>
+        
+    
+    <header>
+        <marquee><h1>Welcome to Kalptaru - Your Photoshop Hub</h1></marquee>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#tutorials">Tutorials</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#feedback">Feedback</a>
+    </nav>
+    <section id="about">
+        <article>
+            <h2>About Kalptaru</h2>
+            <p>Kalptaru is your go-to source for mastering Photoshop with professional tutorials, creative ideas, and expert guidance.</p>
+        </article>
+    </section>
+    <section id="tutorials">
+        <article>
+            <h2>Photoshop Tutorials</h2>
+            <ul>
+                <li>Basic Photoshop Tools</li>
+                <li>Advanced Photo Editing</li>
+                <li>Graphic Design Techniques</li>
+            </ul>
+            <table>
+                <tr>
+                    <th>Topic</th>
+                    <th>Difficulty</th>
+                </tr>
+                <tr>
+                    <td>Layer Management</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>Photo Retouching</td>
+                    <td>Advanced</td>
+                </tr>
+            </table>
+        </article>
+    </section>
+    <section id="gallery">
+        <article>
+            <h2>Image Gallery</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX_ZRMUORf_0mK8lHFSHdr2pcYgt0x5pe9ZA&s" alt="Photoshop Artwork" width="300">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCghKbH8850-1HL0BOq0a5vu57gDPfqsTuBw&s" alt="Creative Design" width="300">
+        </article>
+    </section>
+    <section id="faq">
+        <article>
+            <h2>FAQs</h2>
+            <details>
+                <summary >How do I start learning Photoshop?</summary>
+                <p >You can start by exploring our beginner tutorials and following step-by-step guides.</p>
+            </details>
+            <details>
+                <summary>Are the tutorials free?</summary>
+                <p>Yes, all our basic tutorials are free to access.</p>
+            </details>
+        </article>
+    </section>
+    <section id="feedback">
+        <article>
+            <center><h2>Feedback</h2></center>
+            <table>
+                <tr>
+                    <td><label for="name"  >Name:</label></td>
+                    <td><input type="text" id="name" name="name" autofocus="autofocus" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="message">Your Feedback:</label></td>
+                    <td><textarea id="message" name="message" rows="5" required></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;"><button type="submit">Submit</button></td>
+                </tr>
+            </table>
+        </article>
+    </section>
+    <footer>
+        <p>&copy; 2025 Kalptaru. All rights reserved.</p>
+    </footer>
+</body>
+</html>
